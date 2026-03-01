@@ -1,94 +1,102 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Outfit", sans-serif;
-}
-
-.nav_bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0px;
-  
-}
-
-.container{
-    margin: 0px 50px;
-}
-
-.nav_item > ul {
-  display: flex;
-  gap: 10px;
-}
-
-.Logo {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.nav_item > ul > li {
-  list-style-type: none;
-}
-.nav_item > ul > li > a {
-  text-decoration: none;
-  color: black;
-}
-.nav_item > ul > li :hover {
-  text-decoration: underline rgb(96, 157, 4) 2px;
-}
-
-
-.btn{
-  border: none;
-  color: aliceblue;
-  background-color: black;
-  padding: 10px 20px;
-  border-radius: 25px;
-}
-
-.lanuchbtn :hover {
-  color: aliceblue;
-  background-color: rgb(28, 28, 28);
-}
-.Home_img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.img_home {
-  width: 100%;
-  border-radius: 25px;
-}
-.image_H {
-  max-width: 100%;
-  object-fit: fill;
-  border-radius: 25px;
-}
-
-.Home_img > img {
-  padding-top: 40px;
-  max-width: 1500px;
-  max-height: 80vh;
-  border-radius: 20px;
-}
-
-.about-t{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-}
-.main-head > h1{
-    font-size: 50px;
-    font-weight: 300;
-
-}
-.par-te {
-    width: 351px;
-    font-size: 18px;
-}
-
-.Explorebtn{
-    margin-top: 25px;
-}
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: "Outfit", sans-serif;
+                }
+                
+                .nav_bar {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 20px 0px;
+                }
+                
+                body {
+                    margin: 0px 50px;
+                }
+                
+                .nav_item>ul {
+                    display: flex;
+                    gap: 10px;
+                }
+                
+                .Logo {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                
+                .nav_item>ul>li {
+                    list-style-type: none;
+                }
+                
+                .nav_item>ul>li>a {
+                    text-decoration: none;
+                    color: black;
+                }
+                
+                .nav_item>ul>li :hover {
+                    text-decoration: underline rgb(96, 157, 4) 2px;
+                }
+                
+                .btn {
+                    border: none;
+                    color: aliceblue;
+                    background-color: black;
+                    padding: 10px 20px;
+                    border-radius: 25px;
+                }
+                
+                .lanuchbtn :hover {
+                    color: aliceblue;
+                    background-color: rgb(28, 28, 28);
+                }
+                
+                .Home_img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .img_home {
+                    width: 100%;
+                    border-radius: 25px;
+                }
+                
+                .image_H {
+                    max-width: 100%;
+                    object-fit: fill;
+                    border-radius: 25px;
+                }
+                
+                .Home_img>img {
+                    padding-top: 40px;
+                    max-width: 1500px;
+                    max-height: 80vh;
+                    border-radius: 20px;
+                }
+                
+                .about-t {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 50px;
+                }
+                
+                .main-head>h1 {
+                    font-size: 50px;
+                    font-weight: 300;
+                }
+                
+                .par-te {
+                    width: 351px;
+                    font-size: 18px;
+                }
+                
+                .Explorebtn {
+                    margin-top: 25px;
+                }
+                
+                .cartbox {
+                    display: flex;
+                }
+                
+                .cartbox>.big-box {}
